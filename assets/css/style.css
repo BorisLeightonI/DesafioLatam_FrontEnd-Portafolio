@@ -1,0 +1,88 @@
+.rico{
+  font-family: 'Lobster', cursive;
+  font-size: 37px;
+}
+.navbar{
+  text-align: auto;
+  background-color: #660066;
+}
+.navbar-nav .nav-link .navbar-brand{
+    color: #ffffff;
+}
+.imagen{
+  background-image: url(../img/yo.jpg);
+  background-size: 60% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+i{
+  color: #660066;
+}
+f{
+  color: #ffffff;
+}
+#ultTrab{
+  background-color: #660066;
+  color: #ffffff;
+}
+hr{
+  height: 1px;
+  background-color: black;
+}
+div>hr{
+  height: 1px;
+  background-color: grey;
+}
+#contacto{
+  color: #373A3C;
+}
+body{
+  font-family: 'Cabin', sans-serif;
+  text-align: left;
+  color: #373A3C;
+}
+
+.tooltip{
+  background: #373A3C;
+  color: #ffffff;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: black;
+  position: relative;
+  top: 50px;
+}
+footer{
+  background: #660066;
+  color: #ffffff;
+  font-family: 'Lobster', cursive;
+  font-size: 37px;
+  height: 125px;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 2px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: black;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
