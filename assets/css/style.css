@@ -5,16 +5,20 @@
 .navbar{
   text-align: auto;
   background-color: #660066;
+  position: fixed;
+  width: 100vw;
 }
 .navbar-nav .nav-link .navbar-brand{
     color: #ffffff;
 }
 .imagen{
   background-image: url(../img/yo.jpg);
-  background-size: 60% auto;
+  background-size: 20% auto;
   background-position: center;
   background-repeat: no-repeat;
   height: 400px;
+  position: relative;
+  top: 61px;
 }
 i{
   color: #660066;
@@ -80,9 +84,12 @@ div.desc {
   text-align: center;
   color: black;
 }
+div.card{
+  z-index: -1;
+}
 
-.clearfix:after {
+/* .clearfix:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
